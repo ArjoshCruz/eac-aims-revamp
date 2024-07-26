@@ -84,7 +84,9 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
     /* Start of Header */   
     #logo {
-        height: 40px;
+        background: url(../images/Emilio_Aguinaldo_College_seal.svg) no-repeat center center / cover;
+        width: 50px;
+        height: 50px;
     }
     #school h1 {
         font-size: 1.5em;
@@ -123,6 +125,8 @@ body {
         padding-left: 20px;
     }
     #logo {
+        background: url(../images/Emilio_Aguinaldo_College_seal.svg) no-repeat center center / cover;
+        width: 30px;
         height: 30px;
     }
     #school h1 {
