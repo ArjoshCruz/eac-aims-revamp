@@ -1,0 +1,159 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    background: url(../images/eac-aims-bg.jpg) no-repeat center center / cover;
+    height: 100%;
+    width: 100%;
+}
+
+/* Start of Header */
+#main-nav {
+    background: radial-gradient(#ec2626, #690707);
+}
+
+#logo {
+    background: url(../images/Emilio_Aguinaldo_College_seal.svg) no-repeat center center / cover;
+    width: 80px;
+    height: 70px;
+}
+
+#school {
+    display: inline-block;
+    font-family: serif;
+}
+
+#school h1 {
+    font-size: 2em;
+}
+
+#school span {
+    font-size: .7em;
+}
+
+#school h1, #school span {
+    text-shadow: 2px 2px 1px black;
+}
+
+/* End of Header */
+
+/* Start of Body */
+#student-text {
+    font-family: 'Anton', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+#fillout {
+    background-color: white;
+}
+
+.fillout-container {
+    border-radius: 6px;
+    max-height: 450px;
+    max-width: 550px;
+    box-shadow: 0 1px 3px black;
+    height: 500px;
+}
+#user-auth{
+    font-size: 22px;
+}
+#fillout {
+    font-size: 18px;
+}
+#forgot {
+    font-size: 14px;
+}
+
+
+
+
+/********** Large Devices Only **********/
+@media (min-width: 1200px) {
+    
+}
+
+/********** Medium Devices Only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+/********** Small Devices Only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Start of Header */   
+    #logo {
+        height: 40px;
+    }
+    #school h1 {
+        font-size: 1.5em;
+    }
+    #school span {
+        font-size: 0.54em;
+    }
+    /* End of Header */
+
+    /* Start of Fillout-Container */
+    #student-text{
+        font-size: 20px;
+    }
+    .fillout-container {
+        border-radius: 6px;
+        max-height: 420px;
+        max-width: 500px;
+        box-shadow: 0 1px 3px black;
+        height: 500px;
+    }
+    #user-auth{
+        font-size: 18px;
+    }
+    #fillout {
+        font-size: 16px;
+    }
+    #forgot {
+        font-size: 14px;
+    }
+}
+
+/********** Extra Small Devices Only **********/
+@media (max-width: 767px) {
+    /* Start of Header */
+    #main-nav {
+        padding-left: 20px;
+    }
+    #logo {
+        height: 30px;
+    }
+    #school h1 {
+        font-size: 1rem;
+    }
+    #school span {
+        font-size: 0.35rem;
+    }
+    /* End of Header */
+
+    /* Start of Fillout-Container */
+    #student-text{
+        font-size: 18px;
+    }
+    .fillout-container {
+        border-radius: 6px;
+        max-height: 400px;
+        max-width: 330px;
+        box-shadow: 0 1px 3px black;
+        height: 500px;
+    }
+    #user-auth{
+        font-size: 16px;
+    }
+    #fillout {
+        font-size: 12px;
+    }
+    #forgot {
+        font-size: 10px;
+    }
+    .btn-fillout {
+        font-size: 10px;
+    }
+}
